@@ -14,7 +14,7 @@ int firstOccur(int  arr [], int size, int target) {
 
       if(arr[mid] == target) {
         ans = mid; // find ans 
-        end = mid -1;  // go to the left
+        end = mid -1;  // go to the left // first occurance  start = mid + 1  // last occurance
     
       }else if (target > arr[mid]){
         start = mid + 1;     // going to the right 
