@@ -7,7 +7,7 @@ int firstOccur(int  arr [], int size, int target) {
 
   int start = 0;
   int end = size-1;
-  int mid = (start+end)/2;
+  int mid = (start+end)/2;    // start + (end - start)/ 2   // start / 2  + end / 2
   int ans = -1;
 
   while(start <= end) {
